@@ -21,7 +21,7 @@ body {
   font-size: 30px;
 }
 
-.NavBarButton {
+/*.NavBarButton {
   color: rgb(235, 174, 223);
   font-family: Fantasy;
   font-style: oblique;
@@ -36,6 +36,22 @@ body {
   padding: 10px;
 }*/
 
-.MainTitleButton {
-  background-color: rgb(177, 30, 210);
+
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 25%;
+  width: 25%;
+  position: absolute;
+  margin: 200px auto 0;
+  margin-left: 270px;
+  outline: 30px solid rgb(62, 6, 97);
 }
